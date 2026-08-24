@@ -1,0 +1,21 @@
+{
+    "system": {
+        "csv_log_file": "driver_telemetry.csv",
+        "alarm_cooldown_frames": 30,
+        "calibration_frames": 60
+    },
+    "thresholds": {
+        "ear_drowsiness_limit": 0.20,
+        "ear_consec_frames": 25,
+        "mar_yawn_limit": 0.65,
+        "mar_consec_frames": 15,
+        "pitch_nod_limit": 15.0,
+        "pitch_consec_frames": 20
+    },
+    "audio": {
+        "sample_rate": 44100,
+        "freq_hz": 1000,
+        "duration_sec": 0.3,
+        "repeat_interval_sec": 0.8
+}
+}
