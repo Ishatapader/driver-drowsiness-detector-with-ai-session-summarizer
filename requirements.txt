@@ -1,3 +1,7 @@
+opencv-python
+mediapipe
+numpy
+sounddevice
 streamlit
 pandas
 plotly
