@@ -1,8 +1,8 @@
 # Driver Drowsiness Detection System with AI Session Summarizer
-A webcam-based system that watches a driver's eyes, mouth, and head position in real time, detects signs of drowsiness, plays an alert, and logs every event for later review — with an AI-generated session summary on top.
+A webcam-based system that watches a driver's eyes, mouth, and head position in real time, detects signs of drowsiness, plays an alert, and logs every event for later review with an AI-generated session summary on top.
 ---
 ## Problem Statement
-Driver fatigue is one of the leading causes of road accidents, and it's hard to catch in the moment — drivers often don't realize their eyes have closed for a second too long or their head has started to drop until it's already a problem. Most vehicles have no built-in way to detect this in real time, and after a drive there's usually no data to look back on to understand when or how often it happened. This project closes that gap with a webcam-only monitoring solution that also turns the raw session data into a plain-language summary.
+Driver fatigue is one of the leading causes of road accidents, and it's hard to catch in the moment drivers often don't realize their eyes have closed for a second too long or their head has started to drop until it's already a problem. Most vehicles have no built-in way to detect this in real time, and after a drive there's usually no data to look back on to understand when or how often it happened. This project closes that gap with a webcam-only monitoring solution that also turns the raw session data into a plain-language summary.
 ## Approach
 - Extract facial landmarks per frame using MediaPipe's face mesh
 - Compute EAR (eye closure), MAR (yawning), and head pitch from landmarks
