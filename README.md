@@ -19,7 +19,7 @@ Driver fatigue is one of the leading causes of road accidents, and it's hard to 
 - Streamlit dashboard for reviewing past sessions
 - AI-generated trip summary via Google Gemini
 ## Tech Stack
-**Python | OpenCV | MediaPipe | NumPy | sounddevice | Streamlit | Pandas | Plotly | google-generativeai | python-dotenv**
+**Python3 | OpenCV | MediaPipe | NumPy | sounddevice | Streamlit | Pandas | Plotly | google-generativeai | python-dotenv**
 ## Project Structure
 ```
 .
@@ -64,7 +64,7 @@ GEMINI_API_KEY="your-gemini-api-key-here"
 ## Usage
 **Run the monitoring system:**
 ```bash
-python main.py
+python3 main.py
 ```
 Sit normally during the brief calibration phase at startup. Press `m` to mute/unmute the alert, `q` to quit.
 
@@ -74,7 +74,13 @@ streamlit run dashboard.py
 ```
 Opens a browser dashboard showing total warnings, time-series charts for each metric, and an on-demand AI trip summary.
 ---
+
+## Live Demo
+🚀 Try the dashboard here: https://driver-drowsiness-detector-with-ai-session-summarizer-wgztbz6p.streamlit.app/
+
 ## Author
 **Isha Tapader**
+
 🔗 GitHub: [github.com/Ishatapader](https://github.com/Ishatapader)
+
 💼 LinkedIn: [linkedin.com/in/isha-tapader-116680247](https://www.linkedin.com/in/isha-tapader-116680247/)
