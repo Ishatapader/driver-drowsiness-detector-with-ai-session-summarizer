@@ -39,7 +39,17 @@ cd driver-drowsiness-detector-with-ai-session-summarizer
 **2. Create a virtual environment (recommended)**
 ```bash
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+```
+Activate it:
+```bash
+# Windows
+venv\Scripts\activate
+
+# Linux
+source venv/bin/activate
+
+# macOS
+source venv/bin/activate
 ```
 **3. Install dependencies**
 ```bash
@@ -66,7 +76,5 @@ Opens a browser dashboard showing total warnings, time-series charts for each me
 ---
 ## Author
 **Isha Tapader**
-
 🔗 GitHub: [github.com/Ishatapader](https://github.com/Ishatapader)
-
 💼 LinkedIn: [linkedin.com/in/isha-tapader-116680247](https://www.linkedin.com/in/isha-tapader-116680247/)
