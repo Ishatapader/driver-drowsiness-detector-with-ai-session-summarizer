@@ -38,7 +38,7 @@ cd driver-drowsiness-detector-with-ai-session-summarizer
 ```
 **2. Create a virtual environment (recommended)**
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 Activate it:
 ```bash
